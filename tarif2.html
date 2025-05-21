@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarifs - Barber Shop Norvégien 007</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 2.8rem;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .pricing-container {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .pricing-container:hover {
+      transform: translateY(-5px);
+    }
+
+    .pricing-header {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      padding: 30px 20px;
+    }
+
+    .pricing-header h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .pricing-header p {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    .table thead {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .table td, .table th {
+      vertical-align: middle;
+    }
+
+    .table tbody tr:hover {
+      background-color: #f0f8ff;
+    }
+
+    .address-container {
+      margin-top: 40px;
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-container h4 {
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5 text-center">
+    <h1><i class="bi bi-scissors icon"></i>Barber Shop Norvégien 007</h1>
+
+    <div class="pricing-container my-4">
+      <div class="pricing-header">
+        <h2>Nos Tarifs</h2>
+        <p>Prestations haut de gamme à prix abordables</p>
+      </div>
+      <table class="table table-striped table-bordered mb-0">
+        <thead>
+          <tr>
+            <th><i class="bi bi-stars icon"></i>Service</th>
+            <th><i class="bi bi-currency-euro icon"></i>Tarif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Coupe homme</td><td>15 €</td></tr>
+          <tr><td>Coupe enfant</td><td>10 €</td></tr>
+          <tr><td>Contour + barbe</td><td>7 €</td></tr>
+          <tr><td>Teinture noire</td><td>10 €</td></tr>
+          <tr><td>Teinture (autres couleurs)</td><td>20 €</td></tr>
+          <tr><td>Coupe + teinture noire</td><td>25 €</td></tr>
+          <tr><td>Défrisage</td><td>15 €</td></tr>
+          <tr><td>Shampoing</td><td>5 €</td></tr>
+          <tr><td>Locks</td><td>80 €</td></tr>
+          <tr><td>Coupe + teinture (autres couleurs)</td><td>35 €</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="address-container">
+      <h4><i class="bi bi-geo-alt-fill icon"></i>Prendre rendez-vous sur place</h4>
+      <p>80 Rue des Cités, Aubervilliers, Île-de-France</p>
+    </div>
+  </div>
+
+</body>
+</html>
